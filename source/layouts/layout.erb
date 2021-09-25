@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <title><%= current_page.data.title || "Žonglérův slabikář" %></title>
+		<%= partial "meta" %>
+		<%= stylesheet_link_tag 'z' %>
+  </head>
+  <body class="<%= page_classes %>">
+
+	<div class="header">
+    <a href="<%= url_for('/index.html') %>" title="Žonglérův slabikář" id="zslogo"><h1><%= current_page.data.title || "Žonglérův slabikář" %></h1></a>
+	</div>
+
+	<div class="content">
+    <%= yield %>
+	</div>
+
+<%= partial "footer" %>

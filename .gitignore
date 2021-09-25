@@ -1,0 +1,7 @@
+.bundle
+.gradle
+build
+node_modules
+source/img/zs-*.png
+lastrun
+app/src/main/assets/www
