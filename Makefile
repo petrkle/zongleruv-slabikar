@@ -11,4 +11,4 @@ install:
 	bundle install
 
 clean:
-	rm -rf source/img/z/zs-*.png build
+	rm -rf build
