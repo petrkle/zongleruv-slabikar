@@ -11,5 +11,5 @@ configure :build do
   activate :minify_css
   activate :gzip
   activate :brotli
-  activate :asset_hash, :exts => %w(.css .js .json .png .svg .jpg .pdf .zip .gif)
+  activate :asset_hash, :exts => %w(.css .js .json .png .svg .jpg .pdf .zip .gif .mobi .odt)
 end
