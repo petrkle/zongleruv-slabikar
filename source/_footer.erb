@@ -1,6 +1,6 @@
 	<div class="footer">
 		<ul>
-      <li><a href="<%= url_for('/index.html') %>" title="Úvodní stránka">zonglovani.info</a></li>
+      <li><% if current_page.url.eql?("/") %><b>zonglovani.info</b><% else %><a href="<%= url_for('/index.html') %>" title="Úvodní stránka">zonglovani.info</a><% end %></li>
 		</ul>
 	</div>
   <script defer src="<%= url_for('/s.js') %>"></script>
