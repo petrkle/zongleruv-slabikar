@@ -5,7 +5,12 @@ set :images_dir, 'img'
 set :markdown_engine, :kramdown
 set :markdown, :transliterated_header_ids => true
 
-configure :build do
+configure :development do
+  config[:host] = "zongl.info"
+end
+
+configure :production do
+  config[:host] = "zonglovani.info"
 	activate :directory_indexes
 	activate :minify_html
   activate :minify_css

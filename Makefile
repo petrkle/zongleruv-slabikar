@@ -4,8 +4,11 @@ help:
 	@echo "install  - nainstaluje závislosti"
 	@echo "clean    - smaže generované ikonky"
 
+webtest:
+	NO_CONTRACTS=true bundle exec middleman build --clean --environment=development
+
 web:
-	NO_CONTRACTS=true bundle exec middleman build --clean
+	NO_CONTRACTS=true bundle exec middleman build --clean --environment=production
 
 install:
 	bundle install
