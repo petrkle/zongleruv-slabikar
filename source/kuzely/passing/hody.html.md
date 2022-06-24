@@ -1,6 +1,7 @@
 ---
 title: "Druhy hodů při passování - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Druhy hodů při passování

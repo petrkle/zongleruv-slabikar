@@ -1,6 +1,7 @@
 ---
 title: "Odkládání kuželky na bradu - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Odkládání kuželky na bradu

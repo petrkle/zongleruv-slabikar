@@ -1,6 +1,7 @@
 ---
 title: "Půl otočky - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Půl otočky

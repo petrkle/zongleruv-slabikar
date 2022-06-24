@@ -1,6 +1,7 @@
 ---
 title: "7 kuželů - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## 7 kuželů

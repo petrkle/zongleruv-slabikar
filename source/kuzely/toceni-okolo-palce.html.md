@@ -1,6 +1,7 @@
 ---
 title: Otáčení kuželky okolo palce
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Otáčení kuželky okolo palce

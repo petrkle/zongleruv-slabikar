@@ -1,6 +1,7 @@
 ---
 title: "Pass pod nohou - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Pass pod nohou

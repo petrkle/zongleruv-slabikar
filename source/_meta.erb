@@ -16,10 +16,15 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="<%= current_page.data.title || "Žonglérův slabikář" %>">
 <meta property="og:description" content="<%= current_page.data.description || "Obrázková učebnice žonglování s míčky, kruhy a kužely." %>">
+<% if current_page.data.img %>
+<meta property="og:image" content="https://<%= config[:host] %><%= url_for(current_page.data.img) %>">
+<meta name="twitter:image" content="https://<%= config[:host] %><%= url_for(current_page.data.img) %>">
+<% else %>
 <meta property="og:image" content="https://<%= config[:host] %><%= url_for('/img/z/zs.png') %>">
+<meta name="twitter:image" content="https://<%= config[:host] %><%= url_for('/img/z/zs.png') %>">
+<% end %>
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="<%= config[:host] %>">
 <meta property="twitter:url" content="https://<%= config[:host] %><%= current_page.url %>">
 <meta name="twitter:title" content="<%= current_page.data.title || "Žonglérův slabikář" %>">
 <meta name="twitter:description" content="<%= current_page.data.description || "Obrázková učebnice žonglování s míčky, kruhy a kužely." %>">
-<meta name="twitter:image" content="https://<%= config[:host] %><%= url_for('/img/z/zs.png') %>">

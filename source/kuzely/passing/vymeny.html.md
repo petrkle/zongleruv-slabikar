@@ -1,6 +1,7 @@
 ---
 title: "Výměny ve čtvercích - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Výměny ve čtvercích

@@ -1,6 +1,7 @@
 ---
 title: Zvednutí kuželu nohou
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Zvednutí kuželu nohou

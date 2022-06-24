@@ -1,6 +1,7 @@
 ---
 title: Vysvětlivky k obrázkům - kužely
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Vysvětlivky k obrázkům

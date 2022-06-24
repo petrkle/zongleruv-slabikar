@@ -1,6 +1,7 @@
 ---
 title: Překulení kuželky přes hlavu
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Překulení kuželky přes hlavu

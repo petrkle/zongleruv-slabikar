@@ -1,6 +1,7 @@
 ---
 title: "Střídavý lichoběžník - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Střídavý lichoběžník

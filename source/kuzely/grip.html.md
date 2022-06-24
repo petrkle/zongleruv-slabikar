@@ -1,6 +1,7 @@
 ---
 title: Dva kužely v jedné ruce
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Dva kužely v jedné ruce

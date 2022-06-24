@@ -1,6 +1,7 @@
 ---
 title: "Sekání (chops) - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Sekání (chops)

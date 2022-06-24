@@ -1,6 +1,7 @@
 ---
 title: "Synchronizace - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Synchronizace

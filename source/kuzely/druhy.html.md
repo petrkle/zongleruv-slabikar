@@ -1,6 +1,7 @@
 ---
 title: Druhy kuželů
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Druhy kuželů

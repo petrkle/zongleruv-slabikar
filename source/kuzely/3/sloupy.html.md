@@ -1,6 +1,7 @@
 ---
 title: "Sloupy - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Sloupy

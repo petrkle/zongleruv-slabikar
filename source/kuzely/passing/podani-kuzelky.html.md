@@ -1,6 +1,7 @@
 ---
 title: "Podání kuželky - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Podání kuželky

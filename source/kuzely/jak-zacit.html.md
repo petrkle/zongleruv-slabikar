@@ -1,6 +1,7 @@
 ---
 title: Jak začít žonglovat s kužely
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Jak začít žonglovat s kužely

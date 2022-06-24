@@ -1,6 +1,7 @@
 ---
 title: "3 count - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## 3 count

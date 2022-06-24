@@ -1,6 +1,7 @@
 ---
 title: Konstrukce kuželu
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Konstrukce kuželu

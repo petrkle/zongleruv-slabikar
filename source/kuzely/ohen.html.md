@@ -1,6 +1,7 @@
 ---
 title: Ohnivé kužely
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Ohnivé kužely

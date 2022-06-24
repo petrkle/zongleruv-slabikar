@@ -1,6 +1,7 @@
 ---
 title: "PS - pass self - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## PS - pass self

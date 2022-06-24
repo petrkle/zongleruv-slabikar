@@ -1,6 +1,7 @@
 ---
 title: "PPS - pass pass self - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## PPS - pass pass self

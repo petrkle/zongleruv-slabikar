@@ -1,6 +1,7 @@
 ---
 title: "Rotující Y - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Rotující Y

@@ -1,6 +1,7 @@
 ---
 title: "Lichoběžník - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Lichoběžník

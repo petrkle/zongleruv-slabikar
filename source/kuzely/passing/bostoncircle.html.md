@@ -1,6 +1,7 @@
 ---
 title: "Boston circle - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Boston circle

@@ -1,6 +1,7 @@
 ---
 title: "Hození za zády - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Hození za zády

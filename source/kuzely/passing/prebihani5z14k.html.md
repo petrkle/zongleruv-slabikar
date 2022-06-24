@@ -1,6 +1,7 @@
 ---
 title: "Přebíhání - 14 kuželů 5 žonglérů - passing s kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Přebíhání - 14 kuželů 5 žonglérů

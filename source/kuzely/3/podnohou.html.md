@@ -1,6 +1,7 @@
 ---
 title: "Hození kuželu pod nohou - tři kužely"
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 ## Hození kuželu pod nohou

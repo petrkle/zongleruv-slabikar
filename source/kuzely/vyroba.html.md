@@ -1,6 +1,7 @@
 ---
 title: Výroba kuželů
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Výroba kuželů

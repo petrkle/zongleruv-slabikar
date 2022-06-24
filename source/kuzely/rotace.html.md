@@ -1,6 +1,7 @@
 ---
 title: Rotace kuželu
 directory_index: false
+img: img/k/kuzely-logo.png
 ---
 
 # Rotace kuželu
