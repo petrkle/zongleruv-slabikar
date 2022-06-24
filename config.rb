@@ -8,8 +8,6 @@ set :markdown, :transliterated_header_ids => true
 configure :development do
   config[:host] = "zongl.info"
 	activate :directory_indexes
-	activate :minify_html
-  activate :minify_css
   activate :asset_hash, :exts => %w(.css .js .json .png .svg .jpg .pdf .zip .gif .mobi .odt)
 end
 
