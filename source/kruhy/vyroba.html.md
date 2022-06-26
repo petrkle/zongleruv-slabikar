@@ -1,6 +1,7 @@
 ---
 title: Výroba kruhů
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 # Výroba kruhů

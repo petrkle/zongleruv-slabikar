@@ -1,6 +1,7 @@
 ---
 title: Vysvětlivky k obrázkům - kruhy
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 # Vysvětlivky k obrázkům

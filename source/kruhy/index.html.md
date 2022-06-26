@@ -1,6 +1,7 @@
 ---
 title: Žonglování s kruhy
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 # Žonglování s kruhy

@@ -1,6 +1,7 @@
 ---
 title: "Kaskáda - tři kruhy"
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 ## Kaskáda

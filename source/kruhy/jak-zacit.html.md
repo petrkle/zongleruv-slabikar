@@ -1,6 +1,7 @@
 ---
 title: Jak začít žonglovat s kruhy
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 # Jak začít žonglovat s kruhy

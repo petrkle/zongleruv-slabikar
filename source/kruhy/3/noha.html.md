@@ -1,6 +1,7 @@
 ---
 title: "Prohození kruhu pod nohou - tři kruhy"
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 ## Prohození kruhu pod nohou

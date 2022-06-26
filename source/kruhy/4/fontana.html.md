@@ -1,6 +1,7 @@
 ---
 title: Fontána - čtyři kruhy
 directory_index: false
+img: img/k/kruhy-logo.png
 ---
 
 ## Fontána
