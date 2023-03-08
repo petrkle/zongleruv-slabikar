@@ -4,7 +4,7 @@ title: Žonglování na olympiádu
 
 # Žonglování na olympiádu
 
-Žonglérský výzkumný ústav, 1. dubna
+**Žonglérský výzkumný ústav, 1. dubna**
 
 Toto je petice za zařazení žonglování mezi olympijské sporty. Usilujeme o:
 
