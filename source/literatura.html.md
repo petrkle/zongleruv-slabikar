@@ -21,6 +21,9 @@ directory_index: false
 
 [![](/img/p/poi-kniha.jpg)](/doc/poi-richee.pdf "Poi")Knížka o točení s poi od Richeeho. 86 stránek.
 
+### Jak vytvořit pouliční vystoupení a uspět s ním
+![](/img/k/knizka-busking.jpg) Český překlad německé knihy Anlocken-fesseln-abkassieren. 225 stránek.
+
 ### The Encyclopaedia of Ball Juggling
 
 ![](/img/e/encyclopaedia-ball-juggling.jpg)Výborná knížka o žonglování s míčky od Carlieho Dancey. Obsahuje spoustu pěkných obrázků, díky tomu nemusíš ani umět anglicky, a přesto téměř vše pochopíš. Je vhodná pro začátečníky i pokročilé. 216 stránek.
