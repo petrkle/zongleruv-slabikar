@@ -35,6 +35,12 @@ Skupina žonglérů, kteří milují oheň.
 
 Cirkus pro děti a mládež.
 
+##### [chudadlo.cz](https://chudadlo.cz/ "Chůdadlo")
+
+[![](/img/o/odkazy-chudadlo.jpg)](https://chudadlo.cz/ "Chůdadlo")
+
+Cirkus, busking, divadlo.
+
 ##### [juggling.tv](https://juggling.tv/ "Domov žonglérského videa na internetu.")
 
 [![](/img/o/odkazy-jtv.jpg)](https://juggling.tv/ "Domov žonglérského videa na internetu.")
