@@ -20,7 +20,7 @@ Vaše příspěvky zajistí, že nebudu v mínusu a možná i [pravidelné aktua
 - [youtube.com](https://www.youtube.com/ZongleruvSlabikar)
 - [juggling.tv](https://juggling.tv/users/4431/zonglovani.info)
 - [rajce.net](https://zonglovani.rajce.idnes.cz/)
-- [github.com](https://github.com/petrkle/zonglovani.info)
+- [github.com](https://github.com/petrkle/zongleruv-slabikar)
 - [mlp.cz](https://search.mlp.cz/cz/titul/zongleruv-slabikar/4131041/ "Záznam v katalogu Městské knihovny v Praze")
 - [nkp.cz](https://aleph.nkp.cz/F/?func=direct&doc_number=002609718&local_base=NKC "Záznam v databázi Národní knihovny ČR")
 
