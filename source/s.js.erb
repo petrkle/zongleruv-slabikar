@@ -4,80 +4,80 @@ var d = []
 <% end %>
 
 document.addEventListener('DOMContentLoaded',function() {
-	if(document.querySelector('input[id="q"]')){
+  if(document.querySelector('input[id="q"]')){
     document.querySelector('input[id="q"]').onkeyup=vyhledavani;
-	}
+  }
 
-	nadpis = document.querySelector('div.header a');
-	var img = document.createElement("img");
-	img.src = "<%= url_for('/img/s/s.svg') %>";
-	img.id = "lupa";
-	img.onclick = function (){showsearchform()};
-	nadpis.parentNode.insertBefore(img, nadpis.previousSibling);
+  nadpis = document.querySelector('div.header a');
+  var img = document.createElement("img");
+  img.src = "<%= url_for('/img/s/s.svg') %>";
+  img.id = "lupa";
+  img.onclick = function (){showsearchform()};
+  nadpis.parentNode.insertBefore(img, nadpis.previousSibling);
 
 },false);
 
 function showsearchform(){
-	nadpis = document.querySelector('div.header');
-	nadpis.innerHTML = '<input type="search" placeholder="Vyhledávání" id="q" autocomplete="off" />';
+  nadpis = document.querySelector('div.header');
+  nadpis.innerHTML = '<input type="search" placeholder="Vyhledávání" id="q" autocomplete="off" />';
   document.querySelector('input[id="q"]').onkeyup=vyhledavani;
-	document.getElementById("q").focus();
-	var ul = document.createElement("ul");
-	ul.id = "vysledky";
-	var parent = document.createElement("div");
-	parent.id = "vs";
-	parent.appendChild(ul);
-	nadpis.parentNode.insertBefore( parent, nadpis.nextSibling );
+  document.getElementById("q").focus();
+  var ul = document.createElement("ul");
+  ul.id = "vysledky";
+  var parent = document.createElement("div");
+  parent.id = "vs";
+  parent.appendChild(ul);
+  nadpis.parentNode.insertBefore( parent, nadpis.nextSibling );
 }
 
 function vyhledavani(event){
-	var query = event.target.value;
-	var spojka = /\//gi;
-	var limit = 100;
-	var nalezeno = 0;
-	var vysledky = [];
-	var re = new RegExp('.*'+bezdiak(query.replace(/ /g, '.*'))+'.*', 'gi');
+  var query = event.target.value;
+  var spojka = /\//gi;
+  var limit = 100;
+  var nalezeno = 0;
+  var vysledky = [];
+  var re = new RegExp('.*'+bezdiak(query.replace(/ /g, '.*'))+'.*', 'gi');
 
-	for(var idx=0; idx<d.length; idx++){
-			let baz = d[idx];
+  for(var idx=0; idx<d.length; idx++){
+      let baz = d[idx];
 
-			var titulek = bezdiak(baz.t);
-			var titulekpozpatku = titulek.split(' ').reverse().join(' ');
+      var titulek = bezdiak(baz.t);
+      var titulekpozpatku = titulek.split(' ').reverse().join(' ');
       var url = baz.p;
       var url = url.replace(spojka, ' ')
 
 
-			var vtitulku = titulek.match(re);
-			var vtitulkupozpatu = titulekpozpatku.match(re);
-			var vurl = url.match(re);
-			if(vtitulku || vtitulkupozpatu || vurl){
-				if(nalezeno<limit){
-					vysledky.push({titulek: baz.t, path: baz.p});
-				}
-				nalezeno++;
-			}
+      var vtitulku = titulek.match(re);
+      var vtitulkupozpatu = titulekpozpatku.match(re);
+      var vurl = url.match(re);
+      if(vtitulku || vtitulkupozpatu || vurl){
+        if(nalezeno<limit){
+          vysledky.push({titulek: baz.t, path: baz.p});
+        }
+        nalezeno++;
+      }
 
-	}
+  }
 
-	var seznam = '';
-	for(var foo=0; foo<vysledky.length; foo++){
-		seznam = seznam + '<li><a href="' + vysledky[foo].path + '" class="vysledek">' + vysledky[foo].titulek + '</a></li>';
-	}
-	document.getElementById("vysledky").innerHTML = seznam;
+  var seznam = '';
+  for(var foo=0; foo<vysledky.length; foo++){
+    seznam = seznam + '<li><a href="' + vysledky[foo].path + '" class="vysledek">' + vysledky[foo].titulek + '</a></li>';
+  }
+  document.getElementById("vysledky").innerHTML = seznam;
 
 }
 
 function bezdiak(txt){
-	var tx = '';
-	var sdiak="ÁÂÄĄáâäąČčĆćÇçĈĉĎĐďđÉÉĚËĒĖĘéěëēėęĜĝĞğĠġĢģĤĥĦħÍÎíîĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĿŀŁłĹĽĺľŇŃŅŊŋņňńŉÓÖÔŐØŌōóöőôøŘřŔŕŖŗŠšŚśŜŝŞşŢţŤťŦŧŨũŪūŬŭŮůŰűÚÜúüűŲųŴŵÝYŶŷýyŽžŹźŻżß";
-	var bdiak="AAAAaaaaCcCcCcCcDDddEEEEEEEeeeeeeGgGgGgGgHhHhIIiiIiIiIiIiIiJjKkkLlLlLlLlLLllNNNNnnnnnOOOOOOooooooRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUUuuuUuWwYYYyyyZzZzZzs";
+  var tx = '';
+  var sdiak="ÁÂÄĄáâäąČčĆćÇçĈĉĎĐďđÉÉĚËĒĖĘéěëēėęĜĝĞğĠġĢģĤĥĦħÍÎíîĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĿŀŁłĹĽĺľŇŃŅŊŋņňńŉÓÖÔŐØŌōóöőôøŘřŔŕŖŗŠšŚśŜŝŞşŢţŤťŦŧŨũŪūŬŭŮůŰűÚÜúüűŲųŴŵÝYŶŷýyŽžŹźŻżß";
+  var bdiak="AAAAaaaaCcCcCcCcDDddEEEEEEEeeeeeeGgGgGgGgHhHhIIiiIiIiIiIiIiJjKkkLlLlLlLlLLllNNNNnnnnnOOOOOOooooooRrRrRrSsSsSsSsTtTtTtUuUuUuUuUuUUuuuUuWwYYYyyyZzZzZzs";
 
 for(p=0;p<txt.length;p++){
 
 if (sdiak.indexOf(txt.charAt(p))!=-1){
-	tx+=bdiak.charAt(sdiak.indexOf(txt.charAt(p)));
+  tx+=bdiak.charAt(sdiak.indexOf(txt.charAt(p)));
 }
-	else tx+=txt.charAt(p);
+  else tx+=txt.charAt(p);
 }
 
 return tx;

@@ -1,8 +1,8 @@
-	<div class="footer">
-		<ul>
+  <div class="footer">
+    <ul>
       <li><% if current_page.url.eql?("/") %><b><%= config[:host] %></b><% else %><a href="<%= url_for('/index.html') %>" title="Úvodní stránka"><%= config[:host] %></a><% end %></li>
-		</ul>
-	</div>
+    </ul>
+  </div>
   <script defer src="<%= url_for('/s.js') %>"></script>
   </body>
 </html>
