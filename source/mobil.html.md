@@ -9,6 +9,12 @@ directory_index: false
 
 [![](/img/a/android-juggling.png)](https://play.google.com/store/apps/details?id=info.zonglovani.mobile.app "Žonglérův slabikář pro Android") Instalace žonglérova slabikáře pro systém **Android**. Dovolí ti prohlížet žonglérův slabikář v mobilu i bez připojení k internetu.
 
+## [Zásady ochrany soukromí](https://kle.cz/zongleruv-slabikar/zasady-ochrany-soukromi.html)
+
+- Nejsou vyžadována žádná oprávnění.
+- Žádné datové přenosy.
+- Aplikace neshromažďuje ani nesdílí data o uživatelích.
+
 ##### Kam dál
 
 - [Žonglérův slabikář pro Amazon Kindle](/download/mobi.html "Žonglérův slabikář ve formátu mobi.")
