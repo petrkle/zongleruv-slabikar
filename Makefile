@@ -11,7 +11,7 @@ webtest:
 
 web:
 	NO_CONTRACTS=true bundle exec middleman build --clean --environment=production
-	cp source/img/q/qr-platba-500kc.png build/img/q/
+	cp source/img/q/qr-platba-500kc.png build/zongleruv-slabikar-500kc-png
 
 server:
 	NO_CONTRACTS=true bundle exec middleman server

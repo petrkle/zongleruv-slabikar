@@ -11,7 +11,7 @@ Příspěvek pošli převodem na účet: **1663602015/3030**
 
 Do zprávy pro příjemce vyplň zonglovani.info.
 
-[![](/img/q/qr-platba-500kc.png)](https://zonglovani.info/img/q/qr-platba-500kc.png)
+[![](/img/q/qr-platba-500kc.png)](https://zonglovani.info/zongleruv-slabikar-500kc-png)
 
 Vaše příspěvky zajistí, že nebudu v mínusu a možná i [pravidelné aktualizace](https://github.com/petrkle/zongleruv-slabikar/commits/master "Seznam změn v žonglérově slabikáři"). Navíc tu nebude spousta reklamy, která všechny ruší a zdržuje.
 
