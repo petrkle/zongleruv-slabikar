@@ -1,4 +1,7 @@
 /* Base styles */
+* {
+  box-sizing: border-box;
+}
 body {
   background: #eed;
   font-family: sans-serif;
@@ -70,9 +73,10 @@ a img {
 
 .content {
   padding: 1em;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   text-align: left;
-  max-width: 600px;
+  width: 100%;
+  max-width: 900px;
   background: #fff;
 }
 
@@ -83,8 +87,9 @@ a img {
 .footer,
 .header {
   padding: 1em;
-  margin: 0 auto 0 auto;
-  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
   background: #fed945;
 }
 
@@ -113,6 +118,7 @@ p img {
   clear: both;
   width: 100%;
   max-width: 590px;
+  height: auto;
 }
 
 /* Lists */
@@ -142,8 +148,8 @@ li {
 /* Search */
 #lupa {
   float: right;
-  width: 2em;
-  height: 2em;
+  width: 4em;
+  height: auto;
   z-index: 5;
   padding: 1em;
   background: #fed945;
@@ -208,4 +214,34 @@ ul li span {
   color: #000;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+    .double-column {
+        display: grid;
+        grid-template-columns: max(200px, 1fr) 1fr;
+        gap: 0.5em 1em;
+    }
+    .double-column img {
+        max-height: 300px;
+        margin: 0 auto;
+    }
+    .double-column > * {
+        grid-column: 1 / span 2;
+    }
+    .double-column p:has(img) {
+        display: block;
+        grid-column: 1;
+        margin: 0;
+        align-self: center;
+        justify-self: center;
+    }
+    .double-column p:has(img)+p {
+        display: block;
+        grid-column: 2;
+        margin: 0;
+        align-self: center;
+        justify-self: left;
+    }
 }
