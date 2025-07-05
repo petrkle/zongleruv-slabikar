@@ -10,7 +10,7 @@ webtest:
 	cp source/img/q/qr-platba-500kc.png build/img/q/
 
 web:
-	NO_CONTRACTS=true bundle exec middleman build --clean --environment=production
+	NO_CONTRACTS=true bundle exec middleman build --verbose --environment=production | tee ./build.log
 	cp source/img/q/qr-platba-500kc.png build/zongleruv-slabikar-500kc-png
 
 server:
