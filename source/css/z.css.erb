@@ -1,33 +1,247 @@
-body{background:#eed;font-family:sans-serif;margin:0;padding:0;text-align:center;}
-h1 a{color:#000;text-decoration:none}
-h1{margin:0;font-size:3em;}
-h1{font-size:3em;font-weight:bold;}
-h2{font-size:1.4em;font-weight:bold;}
-h3{font-size:1.3em;font-weight:bold;}
-h4{font-size:1.2em;font-weight:bold;}
-h5{font-size:1em;font-weight:bold;}
-.center{display:block;margin:0.5em auto;}
-.content{padding:1em;margin:0 auto 0 auto;text-align:left;max-width:600px;background:#fff;}
-.content form{text-align:center;}
-.footer,.header{padding:1em;margin:0 auto 0 auto;max-width:600px;background:#fed945;}
-.header h1 a{color:#000;font-weight:bold;}
-.footer ul {list-style-type:none;text-align:center;margin:0;padding:0;}
-.footer ul li{display:inline;padding:0 0.2em;}
-a{font-weight:bold;}
-a:link{color:#009;}
-a:visited{color:#909;}
-a:active,a:hover,a:focus{color:#f00;}
-a img{border-width:0;}
-p img{margin:1em .1em;border:1px solid #000;float:none;clear:both;width:100%;max-width:590px;}
-ul{list-style:circle;}
-li{padding:.4em 0;margin:.4em 0;}
-#zslogo{display:block;height:4em;background:url(<%= url_for('/img/z/zongleruv-slabikar.svg') %>) 50% 50% no-repeat;background-size:contain;text-align:center;margin-right:5em;}
-#zslogo h1{text-indent:-9999px;}
-#lupa{float:right;width:2em;height:2em;z-index:5;padding:1em;background:#fed945;}
-#q{margin:0;padding:0;border:0;width:100%;font-size:1.3em;line-height:2;height:4rem;}
-#q::-webkit-search-cancel-button{position:relative;right:0.5rem;height:3rem;width:3rem;}
-#vs{padding:0 1em;margin:0 auto 0 auto;max-width:600px;background:#fed945;}
-#vysledky{list-style:none;padding:0;margin:0 auto 0 auto;max-width:600px;background:#fed945;width:100%;}
-#vysledky li{padding:0;margin:0;}
-.vysledek{color:#fff;background:#393;border-bottom:solid 1px #eee;padding:0;margin:0;}
-ul li a.vysledek, ul li span{display:block;padding:1em 0;margin:0;width:100%;text-align:center;background:#eee;border-bottom:solid 1px #999;color:#000;text-decoration:none;font-weight:bold;}
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #eed;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Typography */
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: #009;
+}
+
+a:visited {
+  color: #909;
+}
+
+a:active,
+a:hover,
+a:focus {
+  color: #f00;
+}
+
+a img {
+  border-width: 0;
+}
+
+/* Layout */
+.center {
+  display: block;
+  margin: 0.5em auto;
+}
+
+.content {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+}
+
+.content form {
+  text-align: center;
+}
+
+.footer,
+.header {
+  padding: 1em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  background: #fed945;
+}
+
+.header h1 a {
+  color: #000;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 0 0.2em;
+}
+
+/* Images */
+p img {
+  margin: 1em .1em;
+  border: 1px solid #000;
+  float: none;
+  clear: both;
+  width: 100%;
+  max-width: 590px;
+  height: auto;
+}
+
+/* Lists */
+ul {
+  list-style: circle;
+}
+
+li {
+  padding: .4em 0;
+  margin: .4em 0;
+}
+
+/* Logo */
+#zslogo {
+  display: block;
+  height: 4em;
+  background: url(<%= url_for('/img/z/zongleruv-slabikar.svg') %>) 50% 50% no-repeat;
+  background-size: contain;
+  text-align: center;
+  margin-right: 5em;
+}
+
+#zslogo h1 {
+  text-indent: -9999px;
+}
+
+/* Search */
+#lupa {
+  float: right;
+  width: 4em;
+  height: auto;
+  z-index: 5;
+  padding: 1em;
+  background: #fed945;
+}
+
+#q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  font-size: 1.3em;
+  line-height: 2;
+  height: 4rem;
+}
+
+#q::-webkit-search-cancel-button {
+  position: relative;
+  right: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+#vs {
+  padding: 0 1em;
+  margin: 0 auto 0 auto;
+  max-width: 600px;
+  background: #fed945;
+}
+
+/* Results */
+#vysledky {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  max-width: 600px;
+  background: #fed945;
+  width: 100%;
+}
+
+#vysledky li {
+  padding: 0;
+  margin: 0;
+}
+
+.vysledek {
+  color: #fff;
+  background: #393;
+  border-bottom: solid 1px #eee;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a.vysledek,
+ul li span {
+  display: block;
+  padding: 1em 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  border-bottom: solid 1px #999;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+    .double-column {
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr) 1fr;
+        gap: 0.5em 1em;
+    }
+    .double-column img {
+        max-height: 300px;
+        margin: 0 auto;
+    }
+    .double-column > * {
+        grid-column: 1 / span 2;
+    }
+    .double-column p:has(img) {
+        display: block;
+        grid-column: 1;
+        margin: 0;
+        align-self: center;
+        justify-self: center;
+    }
+    .double-column p:has(img)+p {
+        display: block;
+        grid-column: 2;
+        margin: 0;
+        align-self: center;
+        justify-self: left;
+    }
+}
