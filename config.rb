@@ -9,6 +9,7 @@ configure :development do
   config[:host] = "zongl.info"
   activate :directory_indexes
   activate :asset_hash, :exts => %w(.css .js .json .png .svg .jpg .pdf .zip .gif .mobi .odt)
+  activate :livereload, :host => '127.0.0.1'
 end
 
 configure :production do

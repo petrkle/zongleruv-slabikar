@@ -14,7 +14,7 @@ web:
 	cp source/img/q/qr-platba-500kc.png build/zongleruv-slabikar-500kc-png
 
 server:
-	NO_CONTRACTS=true bundle exec middleman server
+	NO_CONTRACTS=true bundle exec middleman server --bind-address=0.0.0.0
 
 install:
 	bundle install
