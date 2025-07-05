@@ -27,7 +27,3 @@ page "/micky/*/*", layout: :clanky
 page "/kuzely/*/*", layout: :clanky
 page "/kruhy/*/*", layout: :clanky
 page "/diabolo/*", layout: :clanky
-
-# You can do this for other directories too
-# page "/kuzely/*", layout: :kuzely
-# page "/diabolo/*", layout: :diabolo
